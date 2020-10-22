@@ -1,6 +1,6 @@
 # Learning for Db Migration
 ### Summary
-#### *To Run Db Projects, one easy way is to bypass args by replace args with exisitng connection string. 
+* #### To Run Db Projects, one easy way is to bypass args by replace args with exisitng connection string. 
 
 Example: referring code from ```args = new[] ```
 
