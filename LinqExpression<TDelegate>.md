@@ -18,6 +18,8 @@ Console.WriteLine("deleg(4) = {0}", deleg(4));
     deleg(4) = True
 */
 ```
+The Compile method can be used to obtain the value of any expression tree. First, create a lambda expression that has the expression as its body by using the Lambda method. Then call Compile to obtain a delegate, and execute the delegate to obtain the value of the expression.
+
 ### Two way of represent lambda expression Example:
 The following code example demonstrates how to represent a lambda expression both as executable code in the form of a delegate and as data in the form of an expression tree. It also demonstrates how to turn the expression tree back into executable code by using the Compile method.
 
