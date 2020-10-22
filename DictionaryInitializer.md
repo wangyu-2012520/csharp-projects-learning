@@ -2,6 +2,8 @@
 
 ### Summary
 * #### There are 2 ways to initialize dictionary.
+
+### Example
 In the following code example, a Dictionary<TKey,TValue> is initialized with instances of type StudentName. The first initialization uses the Add method with two arguments. The compiler generates a call to Add for each of the pairs of int keys and StudentName values. The second uses a public read / write indexer method of the Dictionary class:
 
 ```C#
